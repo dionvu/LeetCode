@@ -1,3 +1,10 @@
+/**
+ * Removes duplicates from an array using hash map.
+ * @date 2024 March 14
+ *
+ * O(N)
+ */
+
 function containsDuplicate(nums: number[]): boolean {
   const map: {[key: number]: number } = {};
 
