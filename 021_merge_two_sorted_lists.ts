@@ -3,14 +3,6 @@
  * @date 2024 March 9
  */
 
-class ListNode {
-  val: number
-  next: ListNode | null
-  constructor(val?: number, next?: ListNode | null) {
-    this.val = (val === undefined ? 0 : val)
-    this.next = (next === undefined ? null : next)
-  }
-};
 
 function mergeTwoLists(list1: ListNode | null, list2: ListNode | null): ListNode | null {
   let dummyHead: ListNode = new ListNode; // The return head is the value after.
