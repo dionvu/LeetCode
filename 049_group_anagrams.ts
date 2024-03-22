@@ -1,18 +1,23 @@
-/**
- * @date 2024 March 14
- */
 
 function groupAnagrams(strs: string[]): string[][] {
-  const map: { [key: string]: string[] } = {};
+  const answer: string[][] = [];
+  const hash: { [key: string]: string[] } = {};
 
-  for (const string of strs) {
-    const key: string = string.split('').sort((a: string, b: string) => {
-      if (a > b) return -1;
-      else return 1;
-    }).join('');
-
-    if (!map[key]) map[key] = [];
-    map[key].push(string);
+  for (const str of strs) {
+    const sorted = str.split('').sort().join();
+    if (!hash[sorted]) hash[sorted] = [];
+    hash[sorted].push(str);
   }
-  return Object.values(map);
+
+  let set: string[];
+
+  for (const key of Object.keys(hash)) {
+    set = [];
+    for (const str of hash[key]) {
+      set.push(str);
+    }
+    answer.push(set);
+  }
+
+  return answer;
 }
