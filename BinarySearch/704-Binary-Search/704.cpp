@@ -1,3 +1,11 @@
+/**
+ * @date 2024 Apr 20
+ *
+ * Implementation of binary search.
+ *
+ * My difficulty: 3
+ */
+
 #include <vector>
 
 using namespace std;
