@@ -1,11 +1,3 @@
-/**
- * @date 2024 Apr 6
- *
- * Approach:
- * Map the elements to their frequency, add them to a vector, return the first k
- * elements of that vector.
- */
-
 #include <algorithm>
 #include <unordered_map>
 #include <vector>
@@ -23,7 +15,6 @@ public:
 
     vector<pair<int, int>> freq(map.begin(), map.end());
 
-    // Return true if correct order
     sort(freq.begin(), freq.end(),
          [](const pair<int, int> &a, const pair<int, int> &b) {
            return a.second > b.second;
