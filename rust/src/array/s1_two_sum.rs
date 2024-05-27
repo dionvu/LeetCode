@@ -30,3 +30,5 @@ impl Solution {
 
 #[test]
 fn test() {}
+
+// https://leetcode.com/problems/contains-duplicate/submissions/1268758946/
