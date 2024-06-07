@@ -1,0 +1,23 @@
+-- LeetCode problems need to be repeated,
+-- the problems closer to the top have gone 
+-- the longest without being repeated.
+
+s15_3sum.rs
+s1_two_sum.rs
+s217_contains_dup.rs
+s39_combination_sum.rs
+s46_permutations.rs
+s20_valid_parentheses.rs
+s14_longest_com_prefix.rs
+s242_valid_anagram.rs
+s28_find_idx_first_occurence_in_string.rs
+s49_group_anagrams.rs
+s929_unique_email.rs
+s1299_replace_elements_.rs
+s179_largest_number.rs
+s58_len_of_last_word.rs*
+s128_longest_consec_seq.rs
+s238_product_of_arr_except_self.rs
+s27_remove_element.rs
+s169_majority_element.rs
+s724_find_pivot_index.rs

@@ -5,8 +5,6 @@ use crate::solution::Solution;
 */
 
 #[allow(dead_code)]
-impl Solution {}
-
 #[test]
 fn test() {}
 
